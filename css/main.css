@@ -71,6 +71,12 @@ a {
     border: none;
     border-radius: 4px;
     background: #FFE728;
+    transition: .1s;
+}
+.updates .submit:hover {
+    background: #FFD820;
+    cursor: pointer;
+    transition: .1s;
 }
 .resume {
     border-radius: 4px;
