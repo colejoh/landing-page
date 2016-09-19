@@ -1,0 +1,196 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background: #fafafa;
+}
+a {
+    color: inherit;
+}
+.main h1 {
+    color: #fff;
+    padding: 20px;
+    font-size: 36px;
+    width: 300px;
+    display: inline-block;
+}
+.tilt {
+    -webkit-transform: rotate(-90deg);
+}
+.nav {
+    display: inline-block;
+    color: #fff;
+    float: right;
+    margin-top: 35px;
+    margin-right: 20px;
+}
+.nav-item {
+    display: inline-block;
+    padding: 5px 10px;
+    text-align: right;
+}
+.login-button {
+    border: 2px solid #fff;
+    border-radius: 4px;
+    transition: .1s;
+    margin-left: 10px;
+}
+.login-button:hover {
+    background: #fff;
+    color: #508DF1;
+    transition: .1s;
+}
+.main {
+    background: #508DF1;
+    height: 400px;
+}
+.updates {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+    font-weight: 400;
+}
+.updates p {
+    padding: 10px;
+    font-size: 30px;
+}
+.updates input {
+    font-family: 'Lato', sans-serif;
+}
+.updates #email {
+    width: 70%;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+}
+.updates #submit {
+    width: 20%;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    background: #FFE728;
+}
+.resume {
+    border-radius: 4px;
+    width: 800px;
+    height: 150px;
+    background: #fff;
+    margin: 0px auto;
+    margin-top: 50px;
+    padding: 20px;
+}
+.line {
+    width: 100%;
+    background: #efefef;
+    height: 10px;
+    margin-bottom: 20px;
+}
+.half-line {
+    width: 45%;
+    background: #efefef;
+    height: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+/*SURVEY*/
+.survey {
+    padding: 20px;
+    background: #fafafa;
+    box-shadow: 0px -10px 19px 0px rgba(0,0,0,0.12);
+    color: #373737;
+}
+.survey h3 {
+    font-weight: 900;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 0px;
+}
+.survey p {
+    font-family: 'Lato', serif;
+    line-height: 1.6em;
+    width: 800px;
+    margin: 0px auto;
+    text-align: center;
+}
+.survey-content {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.big-input {
+    border: none;
+    border-radius: 4px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    margin: 10px 0px;
+}
+/*TEAM*/
+.team {
+    padding: 20px;
+    background: #fafafa;
+    box-shadow: 0px -10px 19px 0px rgba(0,0,0,0.12);
+    color: #373737;
+}
+.team h3 {
+    font-weight: 900;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 0px;
+}
+.team-wrapper {
+    width: 800px;
+    margin: 0px auto;
+}
+.team-wrapper p {
+    line-height: 1.6em;
+}
+.person {
+    margin: 0px;
+    width: 398px;
+    display: inline-block;
+    text-align: center;
+    margin: 10px 0px;
+}
+.person .photo {
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 5px;
+}
+.person .name {
+    font-weight: 900;
+    font-size: 24px;
+}
+.person .bio {
+    margin-top: 5px;
+}
+/*ABOUT*/
+.about {
+    padding: 20px;
+    background: #fafafa;
+    box-shadow: 0px -10px 19px 0px rgba(0,0,0,0.12);
+    color: #373737;
+}
+.about h3 {
+    font-weight: 900;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 0px;
+}
+.about-wrapper {
+    width: 800px;
+    margin: 0px auto;
+}
+.about-wrapper p {
+    line-height: 1.6em;
+}
+footer {
+    text-align: center;
+    border-top: 1px solid #efefef;
+    padding: 20px 0px;
+    color: #777777;
+}
