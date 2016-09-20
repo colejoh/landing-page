@@ -12,8 +12,18 @@ a {
     width: 300px;
     display: inline-block;
 }
-.tilt {
-    -webkit-transform: rotate(-90deg);
+.header {
+    height: 70px;
+    line-height: 70px;
+    color: #373737;
+    background: #fff;
+}
+.header h1 {
+    font-size: 36px;
+    width: 300px;
+    display: inline-block;
+    padding-left: 20px;
+    color: #508DF1;
 }
 .nav {
     display: inline-block;
@@ -37,6 +47,25 @@ a {
     background: #fff;
     color: #508DF1;
     transition: .1s;
+}
+.header .nav {
+    color: #373737;
+    display: block;
+    margin-top: 0px;
+}
+.header .nav-item {
+    padding: 0px 10px;
+}
+.header .login-button {
+    height: 40px;
+    border: 2px solid #373737;
+    line-height: 35px;
+}
+.header .login-button:hover {
+    height: 40px;
+    border: 2px solid #373737;
+    line-height: 35px;
+    color: #373737;
 }
 .main {
     background: #508DF1;
@@ -199,4 +228,24 @@ footer {
     border-top: 1px solid #efefef;
     padding: 20px 0px;
     color: #777777;
+}
+/*LOGIN*/
+.login-box-wrapper {
+    height: calc(100% - 150px);
+}
+.login-box {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 400px;
+    background: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.12);
+    width: 300px;
+    margin: 0px auto;
+    border-radius: 4px;
+}
+.login-box h3 {
+    text-align: center;
+    padding: 20px;
+    color: #373737;
 }
