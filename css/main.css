@@ -5,67 +5,34 @@ body {
 a {
     color: inherit;
 }
-.main h1 {
-    color: #fff;
-    padding: 20px;
-    font-size: 36px;
-    width: 300px;
-    display: inline-block;
-}
-.header {
+header {
     height: 70px;
     line-height: 70px;
-    color: #373737;
+}
+.header-login {
     background: #fff;
 }
-.header h1 {
+header h1 {
     font-size: 36px;
-    width: 300px;
-    display: inline-block;
     padding-left: 20px;
-    color: #508DF1;
-}
-.nav {
-    display: inline-block;
     color: #fff;
-    float: right;
-    margin-top: 35px;
-    margin-right: 20px;
-}
-.nav-item {
     display: inline-block;
-    padding: 5px 10px;
-    text-align: right;
 }
-.login-button {
-    border: 2px solid #fff;
-    border-radius: 4px;
-    transition: .1s;
-    margin-left: 10px;
-}
-.login-button:hover {
-    background: #fff;
+.header-login h1 {
     color: #508DF1;
-    transition: .1s;
 }
-.header .nav {
+header nav {
+    display: inline-block;
+    float: right;
+    padding-right: 20px;
+}
+.header-login nav .nav-item {
     color: #373737;
-    display: block;
-    margin-top: 0px;
 }
-.header .nav-item {
+header nav .nav-item {
+    color: #fff;
+    display: inline-block;
     padding: 0px 10px;
-}
-.header .login-button {
-    height: 40px;
-    border: 2px solid #373737;
-    line-height: 35px;
-}
-.header .login-button:hover {
-    height: 40px;
-    border: 2px solid #373737;
-    line-height: 35px;
-    color: #373737;
 }
 .main {
     background: #508DF1;
