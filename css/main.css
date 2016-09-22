@@ -145,7 +145,7 @@ header nav .nav-item {
     padding: 20px 0px;
 }
 .team-wrapper {
-    width: 800px;
+    max-width: 800px;
     margin: 0px auto;
 }
 .team-wrapper p {
@@ -185,7 +185,7 @@ header nav .nav-item {
     padding: 20px 0px;
 }
 .about-wrapper {
-    width: 800px;
+    max-width: 800px;
     margin: 0px auto;
 }
 .about-wrapper p {
@@ -236,7 +236,8 @@ footer {
   }
   .updates {
     width: 100%;
-    padding-left: 0%;
+    padding-left: 10%;
+    padding-right: 10%;
     margin-left: 0%;
 
   }
@@ -250,7 +251,5 @@ footer {
     margin-left: 10px;
     margin-right: 10px;
   }
-
-
 
 }
