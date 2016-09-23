@@ -98,38 +98,60 @@ header nav .nav-item {
     display: inline-block;
 }
 /*SURVEY*/
-.survey {
+.home {
     padding: 20px;
     background: #fafafa;
     box-shadow: 0px -10px 19px 0px rgba(0,0,0,0.12);
     color: #373737;
 }
-.survey h3 {
+.home-wrapper {
+    max-width: 800px;
+    margin: 0px auto;
+}
+.home h3 {
     font-weight: 900;
     text-align: center;
     font-size: 30px;
     padding: 20px 0px;
 }
-.survey p {
+.home p {
     font-family: 'Lato', serif;
     line-height: 1.6em;
     max-width: 800px;
     margin: 0px auto;
+    margin-bottom: 30px;
+
+}
+.home-flexbox-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+.home-flexbox-item {
+    width: 400px;
     text-align: center;
+    margin: 30px auto;
 }
-.survey-content {
-    width: 800px;
+.home-flexbox-item p {
+    text-align: left;
+    padding: 10px;
+}
+.home-flexbox-item .get-started {
+    width: 150px;
+    height: 40px;
     margin-left: auto;
     margin-right: auto;
-}
-.big-input {
-    border: none;
+    margin-top: 20px;
     border-radius: 4px;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 30px;
-    margin: 10px 0px;
+    border: 2px solid #508DF1;
+    background: none;
+    color: #508DF1;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+.home-flexbox-item .get-started:hover {
+    background: #508DF1;
+    color: #fff;
+    cursor: pointer;
 }
 /*TEAM*/
 .team {
