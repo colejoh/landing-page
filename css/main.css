@@ -18,6 +18,9 @@ body {
     font-family: 'Pacifico', sans-serif;
     color: #488BEF;
     font-size: 24px;
+    text-align: center;
+    width: 100%;
+    margin-top: 7px;
 }
 .navbar {
     margin-bottom: 0px;
@@ -44,7 +47,15 @@ body {
     border: 2px solid #488BEF;
     transition: .2s;
 }
-
+.navbar-custom {
+    width: 100%;
+    height:
+}
+.login-button {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 /* BANNER */
 .header-bg {
     background: linear-gradient(to bottom, #548AED 0%,#4075D5 100%);
