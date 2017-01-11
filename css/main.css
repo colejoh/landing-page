@@ -48,22 +48,40 @@ nav {
 }
 .nav-item {
     display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+    margin-right: 10px;
     padding: 0 10px;
-    margin: 0 10px;
-    transition: .1s;
 }
-.nav-item:hover {
-    border-bottom: 2px solid #fff;
-    transition: .1s;
+.nav-item:after {
+    content: ' ';
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0px;
+    background: transparent;
+    transition: width .3s ease, background-color .3s ease;
 }
-.nav-item.active {
-    border-bottom: 2px solid #fff;
+.nav-item:hover:after {
+    width: 100%;
+    background: #fff;
+}
+.nav-item.active:after {
+    content: ' ';
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 100%;
+    background: #fff;
 }
 .log-in {
     border: 2px solid #fff;
     border-radius: 4px;
     transition: .2s;
     margin-bottom: 20px;
+}
+.log-in:after {
+    height: 0px;
 }
 .log-in:hover {
     background: rgba(255, 255, 255, 0.2);
